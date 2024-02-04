@@ -1,0 +1,305 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1707048183288142, "dur":20124, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707048183308273, "dur":60, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707048183308359, "dur":434, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707048183308807, "dur":2641, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707048183311449, "dur":127093, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707048183438544, "dur":475, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707048183439312, "dur":1205, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1707048183308811, "dur":2644, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707048183311458, "dur":8234, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707048183319700, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/15792755993916761162.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1707048183319999, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183320104, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183320266, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183320337, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183320600, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183320843, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183320918, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183321579, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":1, "ts":1707048183321708, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1707048183319781, "dur":2271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/Tsunami/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1707048183322053, "dur":760, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707048183323843, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183325501, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183327155, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183329743, "dur":3572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183333351, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183336992, "dur":6054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183343086, "dur":7209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183350319, "dur":7761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183358108, "dur":8975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707048183367084, "dur":71491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707048183308871, "dur":2604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707048183311479, "dur":1001, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707048183312481, "dur":772, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707048183313254, "dur":6464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707048183319719, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1707048183345119, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1707048183346997, "dur":7659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707048183354680, "dur":9462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707048183364143, "dur":74408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707048183308837, "dur":2624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707048183311464, "dur":1024, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707048183312489, "dur":727, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707048183313217, "dur":6503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707048183319736, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1707048183344059, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1707048183346657, "dur":7507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707048183354192, "dur":9148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707048183363341, "dur":75199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707048183308863, "dur":2604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707048183311471, "dur":1015, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707048183312487, "dur":721, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707048183313208, "dur":6494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707048183319703, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1707048183337089, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1707048183339593, "dur":5764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707048183345385, "dur":7100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707048183352528, "dur":7859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707048183360400, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1707048183363303, "dur":75234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707048183308900, "dur":2584, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707048183311488, "dur":1065, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707048183312554, "dur":750, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707048183313304, "dur":6410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707048183319715, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1707048183344904, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1707048183346923, "dur":7714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707048183354670, "dur":9198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707048183363870, "dur":74687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707048183308926, "dur":2575, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707048183311504, "dur":1104, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707048183312609, "dur":7121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707048183327203, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1707048183329291, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707048183332063, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707048183335558, "dur":5335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707048183340932, "dur":6710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707048183347696, "dur":7560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707048183355281, "dur":10258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707048183365540, "dur":73022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707048183308953, "dur":2555, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707048183311511, "dur":1033, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707048183312544, "dur":412, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707048183312956, "dur":6769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707048183319730, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1707048183345163, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1707048183347016, "dur":7993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707048183355037, "dur":10165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707048183365203, "dur":73378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707048183308980, "dur":2535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707048183311518, "dur":969, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707048183312487, "dur":707, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707048183313194, "dur":6505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707048183320255, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1707048183323169, "dur":5358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1707048183328575, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707048183330697, "dur":3924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707048183334644, "dur":4882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/Nobi.UiRoundedCorners.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707048183339561, "dur":6490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707048183346077, "dur":7399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707048183353510, "dur":9827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707048183363338, "dur":75208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707048183309012, "dur":2508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707048183311523, "dur":1049, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707048183312572, "dur":7211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707048183319783, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/Tsunami.exe" }}
+,{ "pid":12345, "tid":9, "ts":1707048183320349, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami.exe" }}
+,{ "pid":12345, "tid":9, "ts":1707048183323205, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707048183325244, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707048183326810, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707048183329013, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707048183331122, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707048183335048, "dur":5478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707048183340563, "dur":7136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707048183347742, "dur":7749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707048183355516, "dur":10688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707048183366205, "dur":72360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707048183309042, "dur":2485, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707048183311531, "dur":1019, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707048183312550, "dur":733, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707048183313283, "dur":6423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707048183319708, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1707048183321346, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1707048183323146, "dur":4687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707048183327901, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707048183330081, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707048183333632, "dur":3949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707048183337610, "dur":6167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707048183343811, "dur":7622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707048183351458, "dur":7831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707048183359302, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1707048183362275, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1707048183365435, "dur":73135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707048183309062, "dur":2470, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707048183311534, "dur":1008, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707048183312542, "dur":741, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707048183313283, "dur":6425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707048183319710, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1707048183321415, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1707048183323116, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1707048183324806, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707048183326537, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707048183328258, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707048183330380, "dur":3714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707048183334113, "dur":7531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707048183341685, "dur":6578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707048183348303, "dur":7919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707048183356255, "dur":10246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707048183366503, "dur":72065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707048183309095, "dur":2443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707048183311541, "dur":1024, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707048183312599, "dur":7111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707048183319731, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1707048183321673, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1707048183323084, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1707048183325258, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707048183326903, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707048183329395, "dur":2999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707048183332422, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707048183336164, "dur":5960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707048183342155, "dur":6511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707048183348698, "dur":8277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707048183357000, "dur":9855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707048183366857, "dur":71714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1707048183309131, "dur":2414, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1707048183311548, "dur":1054, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1707048183312602, "dur":7136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1707048183319742, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1707048183328797, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1707048183330119, "dur":3728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1707048183333892, "dur":5794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1707048183339739, "dur":6940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1707048183346709, "dur":7556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1707048183354337, "dur":9088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1707048183363427, "dur":75122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1707048183309169, "dur":2383, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1707048183311554, "dur":947, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1707048183312501, "dur":726, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1707048183313228, "dur":6504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1707048183319733, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1707048183332693, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1707048183334351, "dur":4849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1707048183339247, "dur":5038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1707048183344376, "dur":7213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1707048183351621, "dur":8006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1707048183359641, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1707048183361542, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/level1" }}
+,{ "pid":12345, "tid":14, "ts":1707048183363934, "dur":74627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1707048183309204, "dur":2354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1707048183311561, "dur":1177, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1707048183312738, "dur":6990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1707048183327270, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1707048183329313, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1707048183332242, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1707048183335688, "dur":5481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1707048183341201, "dur":7245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1707048183348486, "dur":7984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1707048183356496, "dur":9984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1707048183366481, "dur":72085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1707048183309249, "dur":2317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1707048183311569, "dur":868, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1707048183312437, "dur":775, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1707048183313212, "dur":6529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1707048183319746, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1707048183344311, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1707048183346503, "dur":6979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1707048183353531, "dur":9044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1707048183362576, "dur":75963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1707048183309291, "dur":2282, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1707048183311577, "dur":995, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1707048183312573, "dur":7143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1707048183319717, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1707048183332111, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1707048183333738, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1707048183337459, "dur":5879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1707048183343367, "dur":7504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":17, "ts":1707048183350904, "dur":7612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1707048183360033, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1707048183358527, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":17, "ts":1707048183360228, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":17, "ts":1707048183362263, "dur":3750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1707048183366025, "dur":72538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1707048183309322, "dur":2260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1707048183311585, "dur":997, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1707048183312583, "dur":7114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1707048183320384, "dur":313, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":18, "ts":1707048183320701, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":18, "ts":1707048183320891, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":18, "ts":1707048183320955, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Tsunami\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":18, "ts":1707048183321579, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerc7dddb60-inputdata.json" }}
+,{ "pid":12345, "tid":18, "ts":1707048183320699, "dur":989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":18, "ts":1707048183322178, "dur":168, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1707048183322505, "dur":103727, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":18, "ts":1707048183433559, "dur":3737, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":18, "ts":1707048183433547, "dur":3751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/Tsunami_Data/boot.config" }}
+,{ "pid":12345, "tid":18, "ts":1707048183437316, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/boot.config" }}
+,{ "pid":12345, "tid":19, "ts":1707048183309351, "dur":2239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1707048183311593, "dur":971, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1707048183312565, "dur":360, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1707048183312925, "dur":6779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1707048183319707, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1707048183332632, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1707048183334290, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":19, "ts":1707048183339198, "dur":5564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1707048183344789, "dur":7172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":19, "ts":1707048183360015, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1707048183351995, "dur":8092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1707048183360100, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":19, "ts":1707048183362286, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":19, "ts":1707048183365641, "dur":72932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1707048183309377, "dur":2222, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1707048183311602, "dur":952, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1707048183312555, "dur":698, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1707048183313253, "dur":6460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1707048183319713, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":20, "ts":1707048183327646, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":20, "ts":1707048183329614, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1707048183333369, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1707048183336875, "dur":6053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1707048183342977, "dur":6740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1707048183349745, "dur":7751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":20, "ts":1707048183357519, "dur":9959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1707048183367479, "dur":71080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1707048183309404, "dur":2203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1707048183311611, "dur":999, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1707048183312611, "dur":7124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1707048183319736, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":21, "ts":1707048183337405, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":21, "ts":1707048183339341, "dur":6338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1707048183345710, "dur":7123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1707048183352860, "dur":8481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":21, "ts":1707048183361358, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/resources.assets" }}
+,{ "pid":12345, "tid":21, "ts":1707048183363644, "dur":74909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1707048183309430, "dur":2186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1707048183311619, "dur":1000, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1707048183312619, "dur":7124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1707048183319744, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":22, "ts":1707048183336887, "dur":6109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":22, "ts":1707048183343080, "dur":7140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1707048183350248, "dur":7858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1707048183358135, "dur":9412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":22, "ts":1707048183367548, "dur":70996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1707048183309456, "dur":2168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1707048183311628, "dur":1020, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1707048183312648, "dur":7076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1707048183319725, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":23, "ts":1707048183321643, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":23, "ts":1707048183323080, "dur":12315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":23, "ts":1707048183335474, "dur":7728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":23, "ts":1707048183343240, "dur":7601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1707048183350887, "dur":8033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1707048183358934, "dur":5240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":23, "ts":1707048183364187, "dur":74367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1707048183309482, "dur":2158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1707048183311641, "dur":957, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1707048183312598, "dur":7136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1707048183319734, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":24, "ts":1707048183343759, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":24, "ts":1707048183346041, "dur":6853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1707048183352921, "dur":9044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":24, "ts":1707048183361978, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sinio/Downloads/Game/Tsunami_Data/level0" }}
+,{ "pid":12345, "tid":24, "ts":1707048183365009, "dur":73547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707048183442973, "dur":853, "ph":"X", "name": "ProfilerWriteOutput" }
+,
